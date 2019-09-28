@@ -30,12 +30,19 @@ Exemplo: porta definida: 3000;
 Caminho: localhost:3000/veiculos/find?q=corsa
 
 Entry Points:
+
 GET /veiculos - Retorna todos os veículos;
+
 GET /veiculos/find - Retorna os veículos de acordo com o termo passado parâmetro q;
+
 GET /veiculos/{id} - Retorna os detalhes do veículo;
+
 POST /veiculos - Adiciona um novo veículo;
+
 PUT /veiculos/{id} - Atualiza os dados de um veículo;
+
 PATCH /veiculos/{id} - Atualiza apenas alguns dados do veículo;
+
 DELETE /veiculos/{id} - Apaga o veículo;
 
 
