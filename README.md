@@ -37,3 +37,9 @@ POST /veiculos - Adiciona um novo veículo;
 PUT /veiculos/{id} - Atualiza os dados de um veículo;
 PATCH /veiculos/{id} - Atualiza apenas alguns dados do veículo;
 DELETE /veiculos/{id} - Apaga o veículo;
+
+
+ATENÇÃO: Ao rodar a aplicação com o comando "npm start" a aplicação tentará executar com o nodemon.
+Se você não tiver o nodemon instalado, instale ou inicie o projeto com o terminal na raiz da aplicação (mesmo nível do arquivo app.js) com o seguinte comando:
+
+node app
