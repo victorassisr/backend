@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Missão Backend",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "Victor Assis",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.19.1"
+  }
+}
