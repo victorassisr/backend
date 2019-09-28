@@ -3,12 +3,12 @@
 ## Instruções
 
 Na pasta  misc existe um script sql no qual você deve importar para o banco mysql.
-Use o MySQLWorkbench para executar o script gerando o banco e as tabelas necessária.
+Use o MySQLWorkbench para executar o script gerando o banco e as tabelas necessárias.
 Crie um arquivo com o nome .env na raiz da aplicação. (Mesmo nível do arquivo app.js).
 Neste arquivo ficará nossa variáveis de ambiente.
 
 Defina as variaveis:
-PORT=3000 //Porta do nosso servidor.
+PORT=3000 //Porta da nossa aplicação.
 
 DBNAME=dbveiculo //Nome do banco de dados. *Não modifique esta variável, pois ela está de acordo com o script do banco.
 DBHOST=localhost //host do seu banco mysql
@@ -21,7 +21,7 @@ npm start
 
 Iniciará o projeto então use um client Rest para fazer oas requisições.
 
-o caminho ficará de acordo com a porta definida no arquivo .env.
+O caminho ficará de acordo com a porta definida no arquivo .env.
 
 Exemplo: porta definida: 3000;
 Caminho: localhost:3000/veiculos/find?q=corsa
