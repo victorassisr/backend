@@ -16,6 +16,9 @@ DBPASS=suasenha //Senha do banco mysql
 DBUSER=root //usuario do banco mysql
 
 Após seguir estes passos, abra o terminal na raiz da aplicação, mesmo nível do arquivo app.js, e então execute o comando:
+npm install
+
+Após instalar as dependências execute o comanda:
 
 npm start
 
