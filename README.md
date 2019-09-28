@@ -8,11 +8,15 @@ Crie um arquivo com o nome .env na raiz da aplicação. (Mesmo nível do arquivo
 Neste arquivo ficará nossa variáveis de ambiente.
 
 Defina as variaveis:
+
 PORT=3000 //Porta da nossa aplicação.
 
 DBNAME=dbveiculo //Nome do banco de dados. *Não modifique esta variável, pois ela está de acordo com o script do banco.
+
 DBHOST=localhost //host do seu banco mysql
+
 DBPASS=suasenha //Senha do banco mysql
+
 DBUSER=root //usuario do banco mysql
 
 Após seguir estes passos, abra o terminal na raiz da aplicação, mesmo nível do arquivo app.js, e então execute o comando:
