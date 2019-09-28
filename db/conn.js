@@ -11,7 +11,7 @@ var db = {};
 db.sequelize  = sequelize;
 db.Sequelize = Sequelize;
 
-db.veiculos = require('../models/veiculoModel');
+db.veiculos = require('../models/vModel');
 
 sequelize.authenticate()
 .then(() =>  {
